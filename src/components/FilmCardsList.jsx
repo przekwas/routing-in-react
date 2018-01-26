@@ -24,7 +24,8 @@ class FilmCardsList extends React.Component {
                             release_date={film.release_date}
                             rt_score={film.rt_score}
                             director={film.director}
-                            producer={film.producer} />
+                            producer={film.producer}
+                            link={film.id} />
                     )
                 })
                 this.setState({ films: films })
